@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                     return new StoresFragment();
                 case 4:
                     return new SaladFragment();
+
             }
             return null;
         }
