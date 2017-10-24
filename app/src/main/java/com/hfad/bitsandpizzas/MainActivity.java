@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 4;
+            return 5;
         }
 
         @Override
@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
                     return new PastaFragment();
                 case 3:
                     return new StoresFragment();
+                case 4:
+                    return new SaladFragment();
             }
             return null;
         }
@@ -101,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
                     return getResources().getText(R.string.pasta_tab);
                 case 3:
                     return getResources().getText(R.string.store_tab);
+                case 4:
+                    return getResources().getText(R.string.salad_tab);
             }
             return null;
         }

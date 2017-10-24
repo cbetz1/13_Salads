@@ -20,10 +20,16 @@
         <item>Sebastopol</item>
     </string-array>
 
+    <string-array name="salads">
+        <item>Caesar</item>
+        <item>Antipasto</item>
+    </string-array>
+
     <string name="home_tab">Home</string>
     <string name="pizza_tab">Pizzas</string>
     <string name="pasta_tab">Pasta</string>
     <string name="store_tab">Stores</string>
+    <string name="salad_tab">Salads</string>
 
     <string name="company_name">Bits and Pizzas</string>
     <string name="restaurant_image">Restaurant image</string>
